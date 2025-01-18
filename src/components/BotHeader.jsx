@@ -3,7 +3,7 @@ import React from 'react';
 function BotHeader({ onClose }) {
     return (
         <div className="botHeader">
-            <span>React Chatbot UI</span>
+            <span>React Chatbot</span>
             <button onClick={onClose} className="close-button">
                 Close
             </button>

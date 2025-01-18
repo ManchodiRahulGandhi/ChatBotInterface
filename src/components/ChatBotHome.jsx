@@ -37,7 +37,7 @@ function ChatBotHome({onClose}){
 
 
     return(
-        <div>
+        <div className="chatBotHome">
             <BotHeader onClose={onClose}/>
             <Messages messages={messages} />
             <BotInput onSend={send} />
